@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap'); /* Importando a fonte Merriweather */
+
+body {
+    background-color: #ffffff; /* Fundo bege claro */
+    color: #757575; /* Cor do texto marrom escuro */
+    font-family: 'Merriweather', serif; /* Fonte rústica */
+}
+
+.container {
+    max-width: 600px; /* Largura máxima da caixa */
+    margin: 0 auto; /* Centraliza a caixa */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 12px; /* Cantos arredondados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #ffffff; /* Fundo branco */
+    border: 1px solid #d9d2c9; /* Borda suave e clara */
+}
+
+h1 {
+    font-size: 28px; /* Tamanho do título */
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 25px; /* Espaçamento abaixo do título */
+    color: #2955a7;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); 
+    
+}
+
+.form-control {
+    border-radius: 6px; /* Bordas arredondadas */
+    border: 1px solid #6dcbe2; /* Borda clara */
+    background-color: #f9f5f0; /* Fundo claro para inputs */
+    padding: 10px; /* Espaçamento interno */
+    transition: border-color 0.3s; /* Transição suave na borda */
+}
+
+.form-control:focus {
+    border-color: #212396; /* Borda azul ao focar */
+    outline: none; /* Remove o contorno padrão */
+}
+
+.btn {
+    border-radius: 6px; /* Bordas arredondadas nos botões */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    background-color: #237936; /* Cor do botão */
+    color: #ffffff; /* Texto branco */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+}
+
+.btn:hover {
+    background-color: #257d8d; /* Tom mais escuro ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de levantar ao passar o mouse */
+}
+
+.list-group-item {
+    display: flex; 
+    justify-content: space-between; /* Espaço entre elementos */
+    align-items: center; /* Alinha itens verticalmente */
+    margin-bottom: 15px;
+    background-color: #ffffff; /* Fundo branco dos itens */
+    border: 1px solid #d9d2c9; /* Borda suave e clara */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 10px; 
+    transition: box-shadow 0.3s; 
+}
+
+.list-group-item:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.list-group-item img {
+    width: 50px; /* Largura da imagem */
+    height: 50px; /* Altura da imagem */
+    border-radius: 8px; 
+}
+
+.list-group-item-success {
+    background-color: #d9e6d2; 
+    border-color: #c4d7c2; 
+}
+
+.alert {
+    margin-top: 20px; /* Espaçamento acima do alerta */
+    border-radius: 6px; 
+    background-color: #f8d7da; 
+    color: #721c24; /* Cor do texto de alerta */
+    border: 1px solid #f5c6cb; 
+}
+
+.mt-2 {
+    margin-top: 15px; /* Margem superior para o botão */
+}
+
+.ml-2 {
+    margin-left: 10px; /* Margem esquerda para o botão */
+}
